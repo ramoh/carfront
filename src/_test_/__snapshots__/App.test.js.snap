@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div>
+  <section
+    className="skylight-wrapper "
+  >
+    <div
+      className="skylight-overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,0,0,0.3)",
+          "display": "none",
+          "height": "100%",
+          "left": "0px",
+          "position": "fixed",
+          "top": "0px",
+          "transitionDuration": "200ms",
+          "transitionProperty": "all",
+          "transitionTimingFunction": "ease",
+          "width": "100%",
+          "zIndex": "99",
+        }
+      }
+    />
+    <div
+      className="skylight-dialog"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "boxShadow": "0px 0px 4px rgba(0,0,0,.14),0px 4px 8px rgba(0,0,0,.28)",
+          "left": "50%",
+          "marginLeft": "-25%",
+          "marginTop": "-200px",
+          "minHeight": "400px",
+          "padding": "15px",
+          "position": "fixed",
+          "top": "50%",
+          "transform": "scale(0)",
+          "transitionDuration": "200ms",
+          "transitionProperty": "transform",
+          "transitionTimingFunction": "ease",
+          "width": "50%",
+          "zIndex": "100",
+        }
+      }
+    >
+      <a
+        className="skylight-close-button"
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "cursor": "pointer",
+            "fontSize": "1.8em",
+            "position": "absolute",
+            "right": "10px",
+            "top": "0px",
+          }
+        }
+      >
+        ×
+      </a>
+      <h3>
+        New Car
+      </h3>
+      <form>
+        <div
+          className="MuiFormControl-root-233"
+        >
+          <label
+            className="MuiFormLabel-root-248 MuiInputLabel-root-237 MuiInputLabel-formControl-242 MuiInputLabel-animated-245"
+            data-shrink={false}
+          >
+            Brand
+          </label>
+          <div
+            className="MuiInputBase-root-268 MuiInput-root-255 MuiInput-underline-259 MuiInputBase-formControl-269 MuiInput-formControl-256"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-278 MuiInput-input-263"
+              disabled={false}
+              name="brand"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="MuiFormControl-root-233"
+        >
+          <label
+            className="MuiFormLabel-root-248 MuiInputLabel-root-237 MuiInputLabel-formControl-242 MuiInputLabel-animated-245"
+            data-shrink={false}
+          >
+            Model
+          </label>
+          <div
+            className="MuiInputBase-root-268 MuiInput-root-255 MuiInput-underline-259 MuiInputBase-formControl-269 MuiInput-formControl-256"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-278 MuiInput-input-263"
+              disabled={false}
+              name="model"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="MuiFormControl-root-233"
+        >
+          <label
+            className="MuiFormLabel-root-248 MuiInputLabel-root-237 MuiInputLabel-formControl-242 MuiInputLabel-animated-245"
+            data-shrink={false}
+          >
+            Color
+          </label>
+          <div
+            className="MuiInputBase-root-268 MuiInput-root-255 MuiInput-underline-259 MuiInputBase-formControl-269 MuiInput-formControl-256"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-278 MuiInput-input-263"
+              disabled={false}
+              name="color"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="MuiFormControl-root-233"
+        >
+          <label
+            className="MuiFormLabel-root-248 MuiInputLabel-root-237 MuiInputLabel-formControl-242 MuiInputLabel-animated-245"
+            data-shrink={false}
+          >
+            Year
+          </label>
+          <div
+            className="MuiInputBase-root-268 MuiInput-root-255 MuiInput-underline-259 MuiInputBase-formControl-269 MuiInput-formControl-256"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-278 MuiInput-input-263"
+              disabled={false}
+              name="year"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <br />
+        <div
+          className="MuiFormControl-root-233"
+        >
+          <label
+            className="MuiFormLabel-root-248 MuiInputLabel-root-237 MuiInputLabel-formControl-242 MuiInputLabel-animated-245"
+            data-shrink={false}
+          >
+            Price
+          </label>
+          <div
+            className="MuiInputBase-root-268 MuiInput-root-255 MuiInput-underline-259 MuiInputBase-formControl-269 MuiInput-formControl-256"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              className="MuiInputBase-input-278 MuiInput-input-263"
+              disabled={false}
+              name="price"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+        <button
+          className="MuiButtonBase-root-311 MuiButton-root-285 MuiButton-outlined-293 MuiButton-outlinedPrimary-294"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-286"
+          >
+            Save
+          </span>
+          <span
+            className="MuiTouchRipple-root-314"
+          />
+        </button>
+         
+        <button
+          className="MuiButtonBase-root-311 MuiButton-root-285 MuiButton-outlined-293 MuiButton-outlinedSecondary-295"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-286"
+          >
+            Cancel
+          </span>
+          <span
+            className="MuiTouchRipple-root-314"
+          />
+        </button>
+      </form>
+    </div>
+  </section>
+  <div>
+    <button
+      className="MuiButtonBase-root-311 MuiButton-root-285 MuiButton-contained-296 MuiButton-containedPrimary-297 MuiButton-raised-299 MuiButton-raisedPrimary-300"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "margin": "10px",
+        }
+      }
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-286"
+      >
+        New Car 
+      </span>
+      <span
+        className="MuiTouchRipple-root-314"
+      />
+    </button>
+  </div>
+</div>
+`;
